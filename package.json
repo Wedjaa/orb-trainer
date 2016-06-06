@@ -1,0 +1,29 @@
+{
+  "name": "orb-trainer",
+  "version": "1.0.0",
+  "description": "A sample script to train a custom visual words dictionary using node-orbidx.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wedjaa/orb-trainer.git"
+  },
+  "keywords": [
+    "ORB",
+    "visual",
+    "words",
+    "image",
+    "similarity"
+  ],
+  "author": "Fabio 'MrWHO' Torchetti",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Wedjaa/orb-trainer/issues"
+  },
+  "homepage": "https://github.com/Wedjaa/orb-trainer#readme",
+  "dependencies": {
+    "node-orbidx": "^1.0.0"
+  }
+}
