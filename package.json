@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Wedjaa/orb-trainer#readme",
   "dependencies": {
-    "node-orbidx": "^1.0.1"
+    "node-orbidx": "^1.0.10"
   }
 }

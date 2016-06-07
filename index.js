@@ -97,7 +97,7 @@ function trainFromPath(files, fileIdx, cb) {
       console.log('Checking: ' + imagePath);
       if (isImageFile(imagePath)) {
         trainImage(imagePath, function (err, result) {
-          console.log('Training result: ' + result);
+          console.log('Training result [' + fileIdx + ' of '+ files.length +']: ' + result);
           cb(undefined, fileIdx + 1);
         });
       } else {
